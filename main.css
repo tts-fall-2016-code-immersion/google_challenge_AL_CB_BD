@@ -1,0 +1,100 @@
+* {
+  box-sizing: border-box;
+  }
+.Main {
+  text-align: center;
+}
+.input {
+  text-align: center;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+li {
+  display: inline;
+  padding: 4px;
+}
+.Navbar {
+  display: inline;
+  position: absolute;
+  float: right;
+  top: 0;
+  right: 0;
+}
+.Navbar button {
+  background-color: #4885ed;
+  width: 75px;
+  height: 27px;
+  color: #FFF;
+  display: inline;
+  margin-right: 30px;
+  margin-top: 20px;
+  border: none;
+  border-radius: 5%;
+
+}
+.logo {
+  position: relative;
+  margin-top: 170px;
+  margin-left: 320px;
+  width: 285px;
+  height: 145px;
+}
+input {
+  margin-left: 100px;
+  padding-right: 100px;
+  width: 584px;
+  height: 38px;
+}
+.buttonholder {
+  text-align: center;
+  padding-top: 20px;
+}
+.buttonholder button {
+  position: relative;
+  margin-left: 0 auto;
+  margin-right: 0 auto;
+  color: grey;
+  background-color: #f2f2f2;
+  opacity: 30;
+  border: none;
+  border-radius: 5%;
+  width: 126px;
+  height: 36px;
+  font-weight: bold;
+}
+footer {
+  display: block;
+  background-color: #f2f2f2;
+}
+.footer-right {
+  position: fixed;
+  float: right;
+  bottom: 10px;
+  right: 10px;
+  border: none;
+}
+.footer-right button {
+  border: none;
+}
+.footer-left {
+  position: fixed;
+  float: left;
+  bottom: 10px;
+  left: 10px;
+  border: none;
+}
+
+/*.search {
+  position: relative;
+  display: inline-block;
+  text-align: center;
+  background-color: lightgrey;
+  border: 1px solid #AAA;
+  height: 45px;
+  width: 638px;
+  margin-left: 30%;
+  margin-right: 60%;
+}*/
